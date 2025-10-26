@@ -22,7 +22,7 @@ const Quiz = () => {
 
   // Fetch questions
   useEffect(() => {
-    axios.get("http://localhost:5000/api/quiz")
+    axios.get("https://quiz-app-backend-7o1s.onrender.com/api/quiz")
       .then(res => setQuestions(res.data))
       .catch(err => console.error(err));
   }, []);
@@ -62,7 +62,7 @@ const Quiz = () => {
   const handleSubmit = () => {
     setFinished(true);
     if (!submitted && username) {
-      axios.post("http://localhost:5000/api/quiz/result", { username, score })
+        axios.post("https://quiz-app-backend-7o1s.onrender.com/api/quiz/result", { username, score })
         .then(() => setSubmitted(true))
         .catch(err => console.error(err));
     }
