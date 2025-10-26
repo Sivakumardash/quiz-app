@@ -1,0 +1,60 @@
+.header {
+  position: fixed;
+  top: 0;
+  
+  width: 100%;
+  height: 150px; /* big header */
+  background: linear-gradient(90deg, #4b6cb7, #182848); /* cool gradient */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* subtle shadow */
+  padding: 0 2rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 1px;
+}
+
+.header nav {
+  margin-top: 0.5rem;
+}
+
+
+
+
+.a{
+    background-color: aliceblue;
+}
+
+.ab
+{
+    background-color: #f4eff4;
+    color: rgb(1, 1, 1);
+    border-radius: 8px;
+    padding: 12px 24px;   
+    font-size: 18px;  
+}
+.ab:hover {
+  background-color: #c7cacf; /* slightly darker on hover */
+  transform: scale(1.05);    /* small zoom-in effect */
+}
+
+
+.a ul {
+  list-style-type: disc; /* bullet style */
+  padding-left: 30px;    /* adds space from left */
+  font-size: 20px;       /* 👈 increases overall text size */
+  line-height: 1.8;      /* 👈 adds space between lines */
+  color: #333;           /* makes text darker for readability */
+}
+
+.a li {
+  margin-bottom: 10px;   /* space between each point */
+}
