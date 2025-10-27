@@ -118,7 +118,9 @@ router.get("/seed", async (req, res) => {
       
     ];
 
+    await Question.deleteMany(); // deletes old questions
     await Question.insertMany(questions);
+
     res.status(201).json({ message: "Inserted 15 questions successfully!" });
   } catch (err) {
     res.status(500).json({ message: err.message });
