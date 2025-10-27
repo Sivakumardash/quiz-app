@@ -8,7 +8,7 @@ const Result = require("../models/Result");
 router.get("/seed", async (req, res) => {
   try {
     const questions = [
-     /* {
+      {
         question: "What is the capital of France?",
         options: ["Paris", "Rome", "Madrid", "Berlin"],
         correctAnswer: "Paris"
@@ -82,38 +82,9 @@ router.get("/seed", async (req, res) => {
         question: "Which planet is the hottest in our solar system?",
         options: ["Mercury", "Venus", "Mars", "Jupiter"],
         correctAnswer: "Venus"
-      }  */
+      }  
 
-        {
-        question: "What does aneha like the most?",
-        options: ["body", "love", "sex", "food"],
-        correctAnswer: "love"
-      },
-      {
-        question: "to Whom sneha like the most ?",
-        options: ["siva", "subhas", "mother", "father"],
-        correctAnswer: "mother"
-      },
-      {
-        question: "sneha favourite food ?",
-        options: ["siva", "subhas", "chicken", "panir"],
-        correctAnswer: "chicken"
-      },
-      {
-        question: "to Whom sneha hate while angry and like while in sweet mood the most ?",
-        options: ["siva", "subhas", "mother", "father"],
-        correctAnswer: "siva"
-      },
-      {
-        question: "sneha like to do romance when ?",
-        options: ["siva makes her feel very nice and spwnd more time", "subhas talks a lot", "after birth", "before birth"],
-        correctAnswer: "siva makes her feel very nice and spwnd more time"
-      },
-       {
-        question: "sneha looks very?",
-        options: ["sexy", "cute", " both", "none of these"],
-        correctAnswer: "both"
-      }
+   
       
       
     ];
