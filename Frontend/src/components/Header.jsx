@@ -19,7 +19,7 @@ const Header = () => {
     {
         return (
     <header className="header">
-      <h1>quiz exam</h1>
+      <h1>QUIZ EXAM</h1>
       <nav>
         <button className="ab" onClick={intro}>Instructions</button>
       </nav>
